@@ -1,0 +1,38 @@
+{
+  "name": "parcel-jquery-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.1.2",
+    "sass": "^1.26.11"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html --hmr-port=42837",
+    "pro": "parcel build src/index.html --hmr-port=42837",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeftLetter/parcel-jquery-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeftLetter/parcel-jquery-template/issues"
+  },
+  "homepage": "https://github.com/LeftLetter/parcel-jquery-template#readme"
+}

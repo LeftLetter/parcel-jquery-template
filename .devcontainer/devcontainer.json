@@ -1,35 +1,39 @@
 {
-    "name": "vscode-nodejs-template",
-    "dockerFile": "Dockerfile",
-    "shutdownAction": "none",
-    "appPort": "3500:3000",
-    "extensions": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
-        "octref.vetur",
-        "eamodio.gitlens",
-        "donjayamanne.githistory"
-    ],
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash",
-        "editor.formatOnSave": false,
-        "editor.tabSize": 2,
-        "editor.detectIndentation": false,
-        "editor.insertSpaces": true,
-        "editor.codeActionsOnSave": {
-            "source.fixAll.eslint": true
-        },
-        "vetur.format.defaultFormatter.js": "none",
-        "[json]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode",
-            "editor.formatOnSave": true
-        },
-        "[jsonc]": {
-            "editor.quickSuggestions": {
-                "strings": true
-            },
-            "editor.suggest.insertMode": "replace",
-            "editor.tabSize": 2
-        },
+  "name": "parcel-jquery-template",
+  "dockerFile": "Dockerfile",
+  "shutdownAction": "none",
+  "appPort": ["1234:1234", "42837:42837"],
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "donjayamanne.githistory",
+    "abusaidm.html-snippets",
+    "msjsdiag.debugger-for-chrome"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "vetur.format.defaultFormatter.js": "none",
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "editor.tabSize": 2
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "editor.quickSuggestions": {
+        "strings": true
+      },
+      "editor.suggest.insertMode": "replace",
+      "editor.tabSize": 2
     }
+  }
 }
