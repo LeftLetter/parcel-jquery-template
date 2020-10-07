@@ -24,15 +24,5 @@
     "dev": "parcel src/index.html --hmr-port=42837",
     "pro": "parcel build src/index.html --hmr-port=42837",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LeftLetter/parcel-jquery-template.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LeftLetter/parcel-jquery-template/issues"
-  },
-  "homepage": "https://github.com/LeftLetter/parcel-jquery-template#readme"
+  }
 }
